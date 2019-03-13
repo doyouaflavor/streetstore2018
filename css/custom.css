@@ -1,0 +1,49 @@
+/* 歸零
+----------------------------*/	
+
+
+*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body, p, a{
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
+}
+
+
+/* layout
+----------------------------*/	
+
+
+/* 其他
+----------------------------*/	
+
+.navbar-brand-logo{
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.custom-title{
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'sans-serif', ;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 1em;
+}
+
+.custom-t-left f-medium normal{
+}
+
+.button{
+
+		width: 160px;
+		letter-spacing: 1px;
+	}
+    
+.footer-button{
+    background: black;
+    color: white;
+}
