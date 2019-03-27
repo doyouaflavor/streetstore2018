@@ -1,44 +1,45 @@
 /* 歸零
 ----------------------------*/	
 
-
-*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body, p, a{
+*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body, p, a{
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
 
 
 /* layout
 ----------------------------*/	
-
+.navigation navbar navbar-default navbar-fixed-top{
+    padding: 15px 20% 15px 10%
+}
 
 /* 其他
 ----------------------------*/	
-
 .navbar-brand-logo{
     float: left;
     height: 50px;
     padding: 5px 5px;
-    margin-left: 50px;
     font-size: 18px;
     line-height: 20px;
 }
 
-.custom-title{
-    width: 100%;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    font-family: 'sans-serif', ;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
-    font-size: 1em;
+.nav navbar-nav f-small normal raleway{
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif; 
 }
 
-.custom-t-left f-medium normal{
+/* 改頁面標題字大小 */
+.t-left f-large normal{
+    font-weight: 600;
+    
 }
+
+/* 改內文字大小*/
+.t-left f-medium normal{
+    font-size: 16px;
+    font-weight: 300;
+}
+
 
 .button{
-
 		width: 160px;
 		letter-spacing: 1px;
 	}
@@ -46,4 +47,15 @@
 .footer-button{
     background: black;
     color: white;
+}
+
+.word-box{
+    width: 500px;
+    position: relative;
+    left: 80px;
+    
+    text-align:left;
+    font-size: 18px;
+    font-family:  'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
+
 }
