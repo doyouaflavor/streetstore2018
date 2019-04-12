@@ -14,6 +14,8 @@
 
 /* 其他
 ----------------------------*/	
+
+/* 左上角LOGO */
 .navbar-brand-logo{
     float: left;
     height: 50px;
@@ -26,36 +28,52 @@
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif; 
 }
 
+.navigation{
+    padding: 15px 10%;
+}
+
+.blog-post img {
+    width: 100%;
+}
+
 /* 改頁面標題字大小 */
-.t-left f-large normal{
-    font-weight: 600;
+.page-title{
+    text-align: left;
+    height: 120px;
     
+    font-size: 48px;
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
+    font-weight: 900;
+    letter-spacing: 8px; 
 }
 
 /* 改內文字大小*/
-.t-left f-medium normal{
-    font-size: 16px;
-    font-weight: 300;
-}
-
-
-.button{
-		width: 160px;
-		letter-spacing: 1px;
-	}
-    
-.footer-button{
-    background: black;
-    color: white;
-}
-
 .word-box{
-    width: 500px;
-    position: relative;
-    left: 80px;
+    width: 600px;
     
     text-align:left;
     font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px;
     font-family:  'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
+}
 
+/* 專案post標題 */
+.project-post-title{
+    height: 30px;
+    padding: 10px;
+}
+
+/* 專案post內文 */
+
+/* 白色按鈕 */
+.button{
+		width: 160px;
+		letter-spacing: 1px;
+}
+
+/* 黑色按鈕 */
+.footer-button{
+    background: black;
+    color: white;
 }
