@@ -12,6 +12,9 @@
     padding: 15px 20% 15px 10%
 }
 
+.background-dg{
+    background-color: #454545;
+}
 /* 其他
 ----------------------------*/	
 
@@ -40,7 +43,7 @@
 .page-title{
     text-align: left;
     height: 120px;
-    
+    line-height: 1.5;
     font-size: 48px;
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
     font-weight: 900;
@@ -60,20 +63,60 @@
 
 /* 專案post標題 */
 .project-post-title{
-    height: 30px;
+    height: 90px;
     padding: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 4px;
 }
 
 /* 專案post內文 */
+.project-post-word{
+    
+}
 
 /* 白色按鈕 */
 .button{
-		width: 160px;
-		letter-spacing: 1px;
+    width: 180px;
+    height: 40px;
+    border: solid black 2px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
 
 /* 黑色按鈕 */
 .footer-button{
-    background: black;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
     color: white;
+    background: black;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+/* FOOTER LOGO */
+.footer-logo{
+    height: 100px;
+    width: 
+}
+
+/* FOOTER 文字 */
+.footer-word{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER LIST */
+.footer-list{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size: 14px; 
 }
