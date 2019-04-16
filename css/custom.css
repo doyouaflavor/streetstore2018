@@ -36,6 +36,11 @@
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif; 
 }
 
+/* 選單字體 */
+.navbar-default .navbar-nav > li > a{
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
+}
+
 .navigation{
     padding: 15px 10%;
 }
@@ -126,6 +131,7 @@
 
 /* 黑色按鈕 */
 .footer-button{
+    display: inline-block;
     width: 140px;
     height: 35px;
     line-height: 35px;
