@@ -8,6 +8,11 @@
 
 /* layout
 ----------------------------*/	
+.section-content{
+  max-width: 960px;
+  padding:0 90px;
+  margin: 0 auto;
+}
 .navigation navbar navbar-default navbar-fixed-top{
     padding: 15px 20% 15px 10%
 }
@@ -52,7 +57,7 @@
 
 /* 改內文字大小*/
 .word-box{
-    width: 600px;
+    width: 420px;
     
     text-align:left;
     font-size: 18px;
@@ -60,6 +65,39 @@
     line-height: 30px;
     font-family:  'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
+
+/* 關於about-logo */
+#header .section-content{
+  position: relative;
+}
+.about-logo{
+  width: 260px;
+  position: absolute;
+  right:90px;
+  top:0;
+}
+
+
+/* 關於news色塊 */
+.work-preview{
+  margin:0 auto;
+}
+.work{
+  width: 370px;
+  height: 370px;
+  background-color: whitesmoke;
+  margin:10px 10px;
+    
+}
+
+/* 關於news內文 */
+.work-text{
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
 
 /* 專案post標題 */
 .project-post-title{
