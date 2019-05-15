@@ -82,7 +82,7 @@
 
 	
 	<!--Body Starts -->
-	<body class="page-about">
+	<body class="page-project">
 	
 	
 		<!-- Navigation Starts -->
@@ -186,7 +186,7 @@
 				<!-- End Header -->
               
               	    <!-- Section Content -->
-					<div class="section-content news-wrapper">
+					<div class="section-content">
                       
                         <!-- News Container -->
 				        <div class="news-container">
@@ -199,38 +199,99 @@
                                 
                                     <div class="col-md-6">
                                 
-                                         <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><h3>讓弱勢者的街頭販賣成為有保障的產業吧！」三位年輕人的友善街賣革命</h3><p>內文內文內文內文內文<br>2011/05/03</p></a>
+                                         <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><h3>讓弱勢者的街頭販賣成為有保障的產業吧！」三位年輕人的友善街賣革命</h3><p>關鍵評論網<br>2016/01/09</p></a>
                                            
                             
                                     </div>
                                     
                                     <div class="col-md-6">
                                 
-                                       <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><h3>讓弱勢者的街頭販賣成為有保障的產業吧！」三位年輕人的友善街賣革命</h3><p>內文內文內文內文內文內文內文內文內文內文內文內文</p></a>
-                                    
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="row">
-                                
-                                    <div class="col-md-6">
-                                   
-                                            <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><h3>讓弱勢者的街頭販賣成為有保障的產業吧！」三位年輕人的友善街賣革命</h3></a>
-                                            <P>內文內文內文內文內文內文內文內文內文內文內文內文</P>
-                                    
-                                    </div>
-                                    
-                                    <div class="col-md-6">
-                                   
-                                            <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="今天好嗎"><h3>體驗人生百味 把回收拿給阿公阿嬤</h3></a>
+                                       <a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><h3>體驗人生百味<br>把回收拿給阿公阿嬤</h3><p>PeoPo公民新聞<br>2019/02/26</p></a>
                                     
                                     </div>
                                 
                                 </div>
                                 
                             </div>
-					        <!-- End Newssss -->
+                            <!-- End Newssss -->
+                            
+                        </div>
+					    <!-- End News Container -->
+                            
+                            
+                            
+                            
+                      
+                            <!-- News -->
+				            <div class="news">
+					
+                                
+                                
+								<!-- Hover Lightbox -->
+								<a href="https://www.thenewslens.com/article/33873" target ="_blank" title="嗨"><p class="work-text">讓弱勢者的街頭販賣成為有保障的產業吧！」三位年輕人的友善街賣革命</p>			
+									
+								</a>
+								<!-- End Hover Lightbox -->
+                                
+                                
+                                
+                                <!-- Hover Lightbox -->
+								<a href="https://vita.tw/%E9%AB%94%E9%A9%97%E4%BA%BA%E7%94%9F%E7%99%BE%E5%91%B3-%E6%8A%8A%E5%9B%9E%E6%94%B6%E6%8B%BF%E7%B5%A6%E9%98%BF%E5%85%AC%E9%98%BF%E5%AC%A4-648ff5e62d99" target ="_blank" title="嗨">
+										
+											<!-- Title -->
+											<p class="work-text">體驗人生百味 把回收拿給阿公阿嬤</p>
+													
+								</a>
+								<!-- End Hover Lightbox -->
+                                
+                                
+                                
+                                <!-- Hover Lightbox -->
+								<a href="https://www.thenewslens.com/article/105565" target ="_blank" title="嗨">
+										
+											<!-- Title -->
+											<p class="work-text">「假裝沒看見」比拒絕還令人難過，清晨4點看見「貧窮人的台北」</p>
+													
+								</a>
+								<!-- End Hover Lightbox -->
+                                
+                                
+                                
+                                <!-- Hover Lightbox -->
+								<a href="https://buzzorange.com/2018/05/28/do_you_a_flavor/" target ="_blank" title="嗨">
+										
+											<!-- Title -->
+											<p class="work-text">政府不給力，民間的「人生百味」正解決著台北的貧窮問題</p>
+													
+								</a>
+								<!-- End Hover Lightbox -->
+                                
+                                
+                                
+                                <!-- Hover Lightbox -->
+								<a href="https://tw.news.yahoo.com/%E5%8F%A6%E9%A1%9E%E9%80%86%E5%A4%A9-%E8%BA%AB%E9%9A%9C%E4%BA%BA%E5%A3%AB%E9%9D%A0%E8%A1%8C%E5%8B%95%E9%A4%90%E8%BB%8A%E7%BF%BB%E8%BD%89%E5%91%BD%E9%81%8B-011138801.html" target ="_blank" title="嗨">
+										
+											<!-- Title -->
+											<p class="work-text">另類逆天！身障人士靠行動餐車翻轉命運</p>
+													
+								</a>
+								<!-- End Hover Lightbox -->
+                                
+                                
+                                
+                                <!-- Hover Lightbox -->
+								<a href="https://www.cna.com.tw/news/ahel/201806300139.aspx" target ="_blank" title="嗨">
+										
+											<!-- Title -->
+											<p class="work-text">5倍價購寶特瓶做環保袋 助回收者兼做環保</p>
+													
+								</a>
+								<!-- End Hover Lightbox -->
+							
+                                
+                                
+                            </div>
+					        <!-- End News -->
 
                         </div>
 					    <!-- End News Container -->
@@ -245,8 +306,8 @@
 				
 				
 				
-				<!-- Support -->
-				<div id="support" class="dark-bg" data-uk-parallax="{bg: '-300'}" data-uk-scrollspy="{cls:'uk-animation-fade'}">
+				<!-- Newsletter -->
+				<div id="newsletter" class="dark-bg" data-uk-parallax="{bg: '-300'}" data-uk-scrollspy="{cls:'uk-animation-fade'}">
 					
 					<!-- Section Content -->
 					<div class="section-content big-text">
@@ -278,7 +339,7 @@
 					<!-- End Section Content -->
 					
 				</div>
-				<!-- End Support -->
+				<!-- End Newsletter -->
 
 				
 				
