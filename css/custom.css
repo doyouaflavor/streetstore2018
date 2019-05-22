@@ -21,6 +21,8 @@
 
 .background-dg{
     background-color: #454545;
+   /* background: url(/img/support-08.png) no-repeat center 80%;
+    background-size:contain;*/
 }
 /* 其他
 ----------------------------*/	
@@ -54,7 +56,7 @@
 /* 改頁面標題字大小 */
 .page-title{
     text-align: left;
-    height: 120px;
+    height: 150px;
     line-height: 1.5;
     font-size: 48px;
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
@@ -92,30 +94,30 @@
 /* 關於我們news色塊 */
 .news-wrapper{
     background: url(/img/about/about-03.png) no-repeat center 0%,
-        url(/img/about/about-04.png) no-repeat center 100%,
-        #3E3A39;
+        url(/img/about/about-04.png) no-repeat center 100%,#3E3A39;
+    background-size:contain;
 }
+
 .news-section{
     color: black;
     padding-top:180px;
-    padding-bottom:100px;
+    padding-bottom:400px;
     }
 
 .news-section .col-md-6{
-/*    background-color: blanchedalmond;*/
-    
     padding-bottom:30px;
 }
 
 
 .news-section a{
-/*    background-color: blanchedalmond;*/
+    /*    border: solid 2px black;*/
     display: block;
     position: relative;
     height: 300px;
     padding:30px;
-    border: solid 2px black;
     text-align:left;
+    background-color: white;
+    box-shadow:3px 3px 12px black;
 }
 
 .news-section p{
@@ -137,9 +139,15 @@
 #support{
 		padding-top: 150px;
 		padding-bottom: 150px;
+        background-color: #282828;
 	}
 
 
+/* 專案 */
+.project-wrapper{
+    background: url(/img/project/bg-05.png) no-repeat center 8%;
+    background-size:contain;
+}
 
 /* 專案post標題 */
 .project-post-title{
@@ -201,3 +209,4 @@
     margin-right: 60px;
     font-size: 14px; 
 }
+
