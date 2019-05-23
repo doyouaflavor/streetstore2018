@@ -9,11 +9,10 @@
 /* layout
 ----------------------------*/	
 .section-content{
-  padding:0 90px;
-  margin: 0 auto;
-}
-.section-content>div{
-  max-width: 960px;
+    max-width: 960px;
+    padding:0 0px;
+    margin: 0 auto;
+    z-index: 555;
 }
 .navigation navbar navbar-default navbar-fixed-top{
     padding: 15px 20% 15px 10%
@@ -96,6 +95,11 @@
     background: url(/img/about/about-03.png) no-repeat center 0%,
         url(/img/about/about-04.png) no-repeat center 100%,#3E3A39;
     background-size:contain;
+}
+
+#news h2{
+    padding-top: 150px;
+    margin-top: 0;
 }
 
 .news-section{
