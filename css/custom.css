@@ -247,6 +247,52 @@
 }
 
 @media all and (max-width: 480px) {
-    
+    h2.page-title{
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+    .page-title {
+    font-size: 36px;
+    height: 120px;
+    }
+   .news-section h3{
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .section-content {
+    padding: 0 30px;
+    }
+    #header .section-content {
+    padding-right: 30px;
+    }
+    .footer-list {
+     display: block; 
+     margin-right: unset;
+    }
+    #support {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .news-section {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    }
+    #news h2 {
+    padding-top: 60px;
+    }
+    #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    } 
+    .big-text h3 {
+    padding-top: 80px;
+}
+    .h4, h4 {
+    font-size: 6px;
+    }
+    .project-wrapper{
+    background: url(/img/project/bg-05.png) no-repeat center 10%;
+    background-size:contain;
+}
 }
 
