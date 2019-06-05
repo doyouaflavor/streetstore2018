@@ -66,7 +66,6 @@
 /* 改內文字大小*/
 .word-box{
     width: 420px;
-    
     text-align:left;
     font-size: 18px;
     letter-spacing: 2px;
@@ -77,6 +76,35 @@
 .page-about #header{
     background: #F2F2F2;
 }
+
+
+/* 首頁 */
+
+.intro-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.col-circle {
+  padding: 40px;
+}
+.col-circle h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.col-circle h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.col-circle img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
 
 /* 關於about-logo */
 #header .section-content{
