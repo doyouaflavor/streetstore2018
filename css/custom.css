@@ -55,7 +55,6 @@
 /* 改頁面標題字大小 */
 .page-title{
     text-align: left;
-    height: 150px;
     line-height: 1.5;
     font-size: 48px;
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
@@ -80,14 +79,55 @@
 
 /* 首頁 */
 
+.home-logo{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.index-box{
+    width: 400px;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.page-index #header{
+    height: 1500px;
+    background: url(/img/home/home-01.png) no-repeat center 100%,#FBD717;
+    background-size: contain;
+}
+
+.page-index #intro{
+    height: 1500px;
+    background: url(/img/home/home-02.png) no-repeat center 0%,#F2F2F2;
+    background-size: contain;
+}
+
+
 .intro-title{
+    margin: 50px
+}
+
+.intro-title h2{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 40px;
 }
 
+.intro-title h4{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 .col-circle {
-  padding: 40px;
+  padding:30px 50px;
 }
 .col-circle h3 {
   font-size: 22px;
@@ -101,9 +141,36 @@
 .col-circle img {
   width: 100%;
   border-radius: 50%;
-  padding: 10px;
 }
 
+.QA-box{
+    border: solid 2px black;
+    border-radius: 15px;
+    display: inline-block;
+/*(為什麼給inline block就可以置中？原本是block)*/
+    width: 550px;
+    height: 300px;
+    padding:30px;
+    text-align:left;
+    box-shadow:0px 10px 15px -5px rgba(0,0,0,0.5);
+    font-size:18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    margin-top: 30px;
+}
+
+.icon img {
+    height: 100px;
+}
+
+
+#skill .section-content{
+    color: black;
+    padding:100px 0px;
+    height: 600px;
+/*    margin-bottom: 80px;*/
+    }
 
 
 /* 關於about-logo */
@@ -176,10 +243,12 @@
 
 
 /* 專案 */
+/*
 .project-wrapper{
     background: url(/img/project/bg-05.png) no-repeat center 8%;
     background-size:contain;
 }
+*/
 
 /* 專案post標題 */
 .project-post-title{
@@ -284,8 +353,8 @@
     height: 120px;
     }
    .news-section h3{
-        font-size: 18px;
-        line-height: 1.5em;
+    font-size: 18px;
+    line-height: 1.5em;
     }
     .section-content {
     padding: 0 30px;
