@@ -101,12 +101,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 300px;
+    margin-bottom: 300px;
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
 
 .page-index #header{
     height: 1600px;
-    background: url(/img/home/home-01.png) no-repeat center 100%,#FBD717;
+    background: url(/img/home/home-01.png) no-repeat center 100%,#FBD717,url(/img/home/home-01.png) no-repeat center 100%;
     background-size: contain;
 }
 
@@ -121,10 +122,16 @@
     margin: 0;
 }
 
+.intro-title .white{
+    color: white;
+}
+
+/*
 .group{
     margin-top: 300px;
     color: #FFFFFF;
 }
+*/
 
 .intro-title h2{
     font-size: 24px;
@@ -209,6 +216,17 @@
 /*    margin-bottom: 80px;*/
     }
 
+#skill h3{
+    font-size: 20px;
+    font-weight:500
+}
+
+#skill h5{
+    font-weight:400;
+    color:black;
+    line-height: inherit;
+}
+
 
 /* 關於about-logo */
 #header .section-content{
@@ -272,13 +290,6 @@
 }
 
 
-#support{
-		padding-top: 150px;
-		padding-bottom: 150px;
-        background-color: #282828;
-	}
-
-
 /* 專案 */
 /*
 .project-wrapper{
@@ -300,6 +311,13 @@
 .project-post-word{
     
 }
+
+/* support支持我們 */
+#support{
+		padding-top: 150px;
+		padding-bottom: 150px;
+        background-color: #282828;
+	}
 
 /* 白色按鈕 */
 .button{
