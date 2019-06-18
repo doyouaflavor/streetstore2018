@@ -85,6 +85,12 @@
     margin-right: auto;
 }
 
+.index-icon{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .index-box{
     width: 400px;
@@ -94,30 +100,39 @@
     line-height: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 300px;
+    font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
 
 .page-index #header{
-    height: 1500px;
+    height: 1600px;
     background: url(/img/home/home-01.png) no-repeat center 100%,#FBD717;
     background-size: contain;
 }
 
 .page-index #intro{
-    height: 1500px;
-    background: url(/img/home/home-02.png) no-repeat center 0%,#F2F2F2;
+    height: 350px;
+    background: #3E3A39;
     background-size: contain;
 }
 
 
 .intro-title{
-    margin: 50px
+    margin: 0;
+}
+
+.group{
+    margin-top: 300px;
+    color: #FFFFFF;
 }
 
 .intro-title h2{
     font-size: 24px;
     font-weight: 800;
     line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .intro-title h4{
@@ -132,15 +147,24 @@
 .col-circle h3 {
   font-size: 22px;
   font-weight: 500;
+  color: #fff; 
 }
 .col-circle h5 {
   font-size: 14px;
   font-weight: 500;
   line-height: 140%;
+  color: #fff; 
 }
 .col-circle img {
   width: 100%;
   border-radius: 50%;
+}
+
+.page-index #QA{
+    background: url(/img/home/home-02.png) no-repeat center 100%,#F2F2F2;
+    background-size: contain;
+    background-position:top center;
+    padding-top: 250px;
 }
 
 .QA-box{
@@ -149,26 +173,39 @@
     display: inline-block;
 /*(為什麼給inline block就可以置中？原本是block)*/
     width: 550px;
-    height: 300px;
+    height: 230px;
     padding:30px;
     text-align:left;
+    background-color: rgba(0,0,0,0);
     box-shadow:0px 10px 15px -5px rgba(0,0,0,0.5);
+    margin-top: 30px;
+}
+.QA-box h4{
     font-size:18px;
     font-weight: 500;
     letter-spacing: 3px;
     line-height: 1.5em;
-    margin-top: 30px;
+}
+
+.QA-box h5{
+    font-size:16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.5em;
 }
 
 .icon img {
     height: 100px;
 }
 
+#skill{
+    background: #F2F2F2;
+}
 
 #skill .section-content{
     color: black;
     padding:100px 0px;
-    height: 600px;
+    height: 450px;
 /*    margin-bottom: 80px;*/
     }
 
@@ -391,5 +428,28 @@
     background: url(/img/project/bg-05.png) no-repeat center 10%;
     background-size:contain;
 }
+    .home-logo{
+    width: 200px;
+    }
+    
+    .page-index #header{
+    height: 1000px;
+    background: url(/img/home/home-01-phone.png) no-repeat center 100%,#FBD717;
+    background-size: contain;
+    }
+    
+    .index-icon{
+    width: 60px;
+    }
+    
+    .index-box{
+    width: auto;
+    text-align:center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 250px;
+    }
+        
 }
 
