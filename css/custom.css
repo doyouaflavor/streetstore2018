@@ -117,17 +117,17 @@
 }
 
 .page-index #top .section-content{
+    height: 430px;
     background: url(/img/home/home-02-2.png) no-repeat center 100%;
     background-size: 345px;
     background-position: right 0% bottom 0%;
 }
 
 .page-index #intro{
-    height: 600px;
+    height: 700px;
     background: url(/img/home/home-02.png) no-repeat center 0%, 
         linear-gradient(to bottom, rgba(255,255,255,0) 50%, #3E3A39 50%);;
     margin-top:-200px;
-    
 }
 
 
@@ -135,8 +135,9 @@
     margin: 0;
 }
 
-.intro-title .white{
+.intro-title.white{
     color: #fff;
+    padding-top: 170px;
 }
 
 /*
@@ -184,7 +185,7 @@
     background: url(/img/home/home-03.png) no-repeat center 100%,#F2F2F2;
     background-size: contain;
     background-position:top center;
-    padding-top: 250px;
+    padding-top: 110px;
 }
 
 .QA-box{
@@ -412,14 +413,22 @@
 }
 
 @media all and (max-width: 480px) {
+    .about-logo{
+    width:130px;
+    }
     h2.page-title{
-        font-size: 24px;
-        line-height: 1.5em;
+    font-size: 18px;
+    line-height: 1.5em;
     }
     .page-title {
-    font-size: 36px;
-    height: 120px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
     }
+    .separator-small{
+    height: 0px;    
+    }
+    
    .news-section h3{
     font-size: 18px;
     line-height: 1.5em;
@@ -430,17 +439,14 @@
     #header .section-content {
     padding-right: 30px;
     }
-    .footer-list {
-     display: block; 
-     margin-right: unset;
-    }
+    
     #support {
     padding-top: 50px;
     padding-bottom: 50px;
     }
     .news-section {
     padding-top: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     }
     #news h2 {
     padding-top: 60px;
@@ -449,16 +455,86 @@
     padding-top: 50px;
     padding-bottom: 50px;
     } 
+    
+    .footer-list {
+    display: block; 
+    margin-right: unset;
+    font-size: 18px;
+    margin-top: 20px;
+    }
+    
+    .footer-word{
+    font-size: 14px;
+    }
+    
+    .footer-logo{
+    height:200px;
+    }
+    .footer-block.col-md-2{
+    margin-bottom: 20px;
+    }
+    
     .big-text h3 {
     padding-top: 80px;
-}
+    }
+    
     .h4, h4 {
     font-size: 6px;
     }
+    
+    .page-index #header{
+    background: url(/img/home/home-00-phone.png) no-repeat center 100%,#FBD717;
+    background-size:contain;
+    height: 500px;
+    }
+    
+    .page-index #top{
+    height: 450px;
+    background: url(/img/home/home-01-phone.png) no-repeat center 0%,#F2F2F2;
+    background-size: contain;
+    }
+    
+    .page-index #top .section-content{
+    background: rgba(255,255,255,0);
+    }
+    
+    .page-index #intro{
+    height: 1400px;
+    background: url(/img/home/home-02-phone.png) no-repeat center 0%, 
+        linear-gradient(to bottom, rgba(255,255,255,0) 10%, #3E3A39 10%);;
+    margin-top:-200px;
+}
+    
+    .col-md-3.icon{
+    padding: 20px 0;
+    }
+    
+    .QA-box{
+
+    width: 250px;
+    height: 260px;
+    padding:20px;
+    }
+    
+    .QA-box h4{
+    font-size:14px;
+    }
+
+    .QA-box h5{
+    font-size:15px;
+    }
+    
+    #skill .section-content{
+    color: black;
+    padding:100px 0px;
+    height: 1150px;
+    }
+    
     .project-wrapper{
     background: url(/img/project/bg-05.png) no-repeat center 10%;
     background-size:contain;
-}
+    }
+    
     .home-logo{
     width: 200px;
     }
@@ -473,8 +549,11 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    margin-top: 250px;
     }
+    
+    .intro-title h2 {
+    font-size: 18px;
+    line-height: 30px;
         
 }
 
