@@ -182,7 +182,7 @@
 }
 
 .page-index #QA{
-    background: url(/img/home/home-03.png) no-repeat center 100%,#F2F2F2;
+    background: url(../img/home/home-03.png) no-repeat center 100%,#F2F2F2;
     background-size: contain;
     background-position:top center;
     padding-top: 110px;
@@ -256,8 +256,8 @@
 
 /* 關於我們news色塊 */
 .news-wrapper{
-    background: url(/img/about/about-03.png) no-repeat center 0%,
-        url(/img/about/about-04.png) no-repeat center 100%,#3E3A39;
+    background: url(../img/about/about-03.png) no-repeat center 0%,
+        url(../img/about/about-04.png) no-repeat center 100%,#3E3A39;
     background-size:contain;
 }
 
@@ -483,14 +483,14 @@
     }
     
     .page-index #header{
-    background: url(/img/home/home-00-phone.png) no-repeat center 100%,#FBD717;
+    background: url(../img/home/home-00-phone.png) no-repeat center 100%,#FBD717;
     background-size:contain;
     height: 500px;
     }
     
     .page-index #top{
     height: 450px;
-    background: url(/img/home/home-01-phone.png) no-repeat center 0%,#F2F2F2;
+    background: url(../img/home/home-01-phone.png) no-repeat center 0%,#F2F2F2;
     background-size: contain;
     }
     
@@ -500,7 +500,7 @@
     
     .page-index #intro{
     height: 1400px;
-    background: url(/img/home/home-02-phone.png) no-repeat center 0%, 
+    background: url(../img/home/home-02-phone.png) no-repeat center 0%, 
         linear-gradient(to bottom, rgba(255,255,255,0) 10%, #3E3A39 10%);;
     margin-top:-200px;
 }
@@ -531,7 +531,7 @@
     }
     
     .project-wrapper{
-    background: url(/img/project/bg-05.png) no-repeat center 10%;
+    background: url(../img/project/bg-05.png) no-repeat center 10%;
     background-size:contain;
     }
     
