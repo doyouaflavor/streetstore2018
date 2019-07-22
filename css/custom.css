@@ -59,7 +59,7 @@
     font-size: 48px;
     font-family: 'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
     font-weight: 900;
-    letter-spacing: 8px; 
+    letter-spacing: 2px; 
 }
 
 /* 改內文字大小*/
@@ -68,7 +68,7 @@
     text-align:left;
     font-size: 18px;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 25px;
     font-family:  'Noto Sans TC', 'PingFang', 'Microsoft JhengHei', sans-serif;
 }
 
@@ -167,7 +167,6 @@
 }
 .col-circle h3 {
   font-size: 22px;
-  font-weight: 500;
   color: #fff; 
 }
 .col-circle h5 {
@@ -242,7 +241,8 @@
 }
 
 
-/* 關於about-logo */
+/*關於我們 */
+
 #header .section-content{
   position: relative;
 }
@@ -305,12 +305,12 @@
 
 
 /* 專案 */
-/*
+
 .project-wrapper{
-    background: url(/img/project/bg-05.png) no-repeat center 8%;
+    background: url(../img/project/bg-05-05.png) no-repeat center 5%;
     background-size:contain;
 }
-*/
+
 
 /* 專案post標題 */
 .project-post-title{
@@ -400,6 +400,9 @@
     }
 }
 
+
+/*平板尺寸*/
+
 @media all and (max-width: 768px) {
     .section-content {
         padding: 0 60px;
@@ -410,47 +413,100 @@
     .about-logo {
         position: unset;
     }
+    
+    /*平板首頁*/
+    .col-circle {
+    padding:20px 20px;
+    }
+    .col-circle h5 {
+    font-size: 12px;
+    }
+    .page-index #QA{
+    padding-top: 170px;
 }
+    #skill .section-content{
+    color: black;
+    padding:50px 80px;
+    height: 550px;
+    }
+    #skill h3{
+    font-size: 15px;
+    }
 
-@media all and (max-width: 480px) {
-    .about-logo{
-    width:130px;
+    #skill h5{
+    font-size: 10px;
     }
-    h2.page-title{
-    font-size: 18px;
-    line-height: 1.5em;
+    .intro-title h2 {
+    margin-bottom: 30px;
     }
+    .footer-logo{
+    height:300px;
+    }
+    
+    /*平板關於*/
     .page-title {
-    font-size: 28px;
     text-align: center;
     margin-top: 30px;
     }
-    .separator-small{
-    height: 0px;    
+    .word-box{
+    margin-top: 30px;
+    font-size: 21px;
+    text-align:center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    }
+    
+    .news-section {
+    padding-top: 30px;
+    padding-bottom: 300px;
+    }
+
+}
+
+
+/*手機尺寸*/
+@media all and (max-width: 480px) {
+    
+    /*手機關於*/
+    #header .section-content {
+    padding-right: 30px;
+    }
+    
+    .about-logo{
+    width:200px;
+    }
+    h2.page-title{
+    font-size: 18px;
+    line-height: 1.4em;
+    }
+    .page-title {
+    font-size: 28px;
+    }
+    
+    #news h2{
+    font-size: 28px;
+    }
+    .news-section {
+    padding-bottom: 90px;
+    }
+    #news h2 {
+    padding-top: 60px;
     }
     
    .news-section h3{
     font-size: 18px;
     line-height: 1.5em;
     }
-    .section-content {
-    padding: 0 30px;
-    }
-    #header .section-content {
-    padding-right: 30px;
-    }
     
     #support {
     padding-top: 50px;
     padding-bottom: 50px;
     }
-    .news-section {
-    padding-top: 10px;
-    padding-bottom: 90px;
+    
+    .section-content {
+    padding: 0 30px;
     }
-    #news h2 {
-    padding-top: 60px;
-    }
+    
     #footer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -482,6 +538,7 @@
     font-size: 6px;
     }
     
+    /*手機首頁*/
     .page-index #header{
     background: url(../img/home/home-00-phone.png) no-repeat center 100%,#FBD717;
     background-size:contain;
@@ -524,15 +581,16 @@
     font-size:15px;
     }
     
+    #QA .intro-title h2 {
+    font-size: 18px;
+    line-height: 25px; 
+    width: 200px;
+    display: inline-block;
+    }
     #skill .section-content{
     color: black;
     padding:100px 0px;
     height: 1150px;
-    }
-    
-    .project-wrapper{
-    background: url(../img/project/bg-05.png) no-repeat center 10%;
-    background-size:contain;
     }
     
     .home-logo{
@@ -553,7 +611,18 @@
     
     .intro-title h2 {
     font-size: 18px;
-    line-height: 30px;
-        
+    line-height: 25px;
+    text-align: center;
+    }
+    .col-circle {
+    padding: 20px 60px;
+    }
+    
+    /*手機專案*/
+    
+    .project-wrapper{
+    background: url(../img/project/bg-05-05.png) no-repeat center 9%;
+    background-size: contain;
 }
-
+    
+}
