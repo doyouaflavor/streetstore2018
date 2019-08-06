@@ -52,6 +52,7 @@
     width: 100%;
 }
 
+
 /* 改頁面標題字大小 */
 .page-title{
     text-align: left;
@@ -130,7 +131,6 @@
     margin-top:-200px;
 }
 
-
 .intro-title{
     margin: 0;
 }
@@ -184,7 +184,7 @@
     background: url(../img/home/home-03.png) no-repeat center 100%,#F2F2F2;
     background-size: contain;
     background-position:top center;
-    padding-top: 110px;
+    padding-top: 200px;
 }
 
 .QA-box{
@@ -380,7 +380,19 @@
     font-size: 14px; 
 }
 
+/*上導覽列微調*/
 
+@media all and (max-width: 1025px) {
+
+    .navbar-collapse {
+    width: auto;
+    text-align: right;
+    position:absolute;
+    right:0px;
+    left:500px;
+    }
+}
+    
 @media all and (max-width: 960px) {
     
     #header .section-content{
@@ -399,7 +411,6 @@
         margin-top: 0;
     }
 }
-
 
 /*平板尺寸*/
 
